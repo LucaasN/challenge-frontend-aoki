@@ -21,7 +21,7 @@ Para clonar y ejecutar el proyecto sigue estos pasos:
    `npm install` o `npm i`
 6. Ejecutar el proyecto:
    `npm run dev`
-8. Abrir el proyecto en el puerto indicado. Por ejemplo [http://localhost:3000](http://localhost:5173/).
+8. Abrir el proyecto en el puerto indicado. Por ejemplo [http://localhost:5173/](http://localhost:5173/).
 
 
 ## Despliegue
