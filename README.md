@@ -1,50 +1,26 @@
-# React + TypeScript + Vite
+# Challenge Frontend Aoki
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Tecnologias usadas:
 
-Currently, two official plugins are available:
+- **React**
+- **TypeScript**
+- **TailwindCSS**
+- **Context API en conjunto con LocalStorage**
+- **React Router DOM**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## Clonar y ejecutar el proyecto
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Para clonar y ejecutar el proyecto sigue estos pasos:
 
-- Configure the top-level `parserOptions` property like this:
+1. Clona el repositorio: git clone https://github.com/LucaasN/challenge-frontend-aoki.git
+2. Navega a la carpeta del proyecto: cd challenge-frontend-aoki
+3. Instala las dependencias: npm install o npm i
+4. Ejecuta el proyecto: npm run dev
+5. El proyecto debería abrirse en tu navegador en http://localhost:3000.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## Despliegue
+Ademas puedes ver el proyecto en funcionamiento en GitHub Pages y Netlify:
+[GitHub Pages](https://lucaasn.github.io/challenge-frontend-aoki/)
+[Netlify](https://challenge-frontend-aoki.netlify.app/)
