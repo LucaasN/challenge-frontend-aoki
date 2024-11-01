@@ -1,0 +1,167 @@
+{
+    "equipos": [
+        {
+            "id": 1,
+            "nombre": "Los Magníficos",
+            "tipo": "F5",
+            "valoracion": 4.5,
+            "jugadores": [
+                {
+                    "id": 1,
+                    "nombre": "Juan Pérez",
+                    "posicion": "Delantero",
+                    "descripcion": "Rápido y habilidoso"
+                },
+                {
+                    "id": 2,
+                    "nombre": "María González",
+                    "posicion": "Defensa",
+                    "descripcion": "Fuerte en el marcaje"
+                },
+                {
+                    "id": 3,
+                    "nombre": "Pablo Perez",
+                    "posicion": "Mediocampista",
+                    "descripcion": "Propenso a la tarjeta amarilla"
+                },
+                {
+                    "id": 4,
+                    "nombre": "Dibu Martinez",
+                    "posicion": "Arquero",
+                    "descripcion": "Mejor arquero del mundo"
+                },
+                {
+                    "id": 5,
+                    "nombre": "Lautaro Martinez",
+                    "posicion": "Delantero",
+                    "descripcion": "Goleador"
+                }
+                
+            ]
+        },
+        {
+            "id": 2,
+            "nombre": "Los 7 Cabritos",
+            "tipo": "F7",
+            "valoracion": 3.5,
+            "jugadores": [
+                {
+                    "id": 6,
+                    "nombre": "Juan Pérez",
+                    "posicion": "Delantero",
+                    "descripcion": "Rápido y habilidoso"
+                },
+                {
+                    "id": 7,
+                    "nombre": "María González",
+                    "posicion": "Defensa",
+                    "descripcion": "Fuerte en el marcaje"
+                },
+                {
+                    "id": 8,
+                    "nombre": "Gigi Buffon",
+                    "posicion": "Arquero",
+                    "descripcion": "Super reflejos y cortar centros"
+                },
+                {
+                    "id": 9,
+                    "nombre": "Chiellini",
+                    "posicion": "Defensa",
+                    "descripcion": "Alto, aguerrido y zurdo"
+                },
+                {
+                    "id": 10,
+                    "nombre": "Cuadrado",
+                    "posicion": "Mediocampista",
+                    "descripcion": "Habilidoso y desbordeador"
+                },
+                {
+                    "id": 11,
+                    "nombre": "Dybala",
+                    "posicion": "Delantero",
+                    "descripcion": "Zurdo y elegante"
+                },
+                {
+                    "id": 12,
+                    "nombre": "Del Piero",
+                    "posicion": "Delantero",
+                    "descripcion": "Habilidoso, buena pegada y goleador"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "nombre": "Los 11 locos",
+            "tipo": "F11",
+            "valoracion": 5,
+            "jugadores": [
+                {
+                    "id": 13,
+                    "nombre": "Juan Pérez",
+                    "posicion": "Delantero",
+                    "descripcion": "Rápido y habilidoso"
+                },
+                {
+                    "id": 14,
+                    "nombre": "María González",
+                    "posicion": "Defensa",
+                    "descripcion": "Fuerte en el marcaje"
+                },
+                {
+                    "id": 15,
+                    "nombre": "Dida",
+                    "posicion": "Arquero",
+                    "descripcion": "Alto, buen juego aereo y reflejos"
+                },
+                {
+                    "id": 16,
+                    "nombre": "Cafu",
+                    "posicion": "Defensa",
+                    "descripcion": "Rápido y habilidoso para atacar, no tan buena defensa"
+                },
+                {
+                    "id": 17,
+                    "nombre": "Roberto Carlos",
+                    "posicion": "Defensa",
+                    "descripcion": "Fuerte remate de larga y media distancia (zurdo)."
+                },
+                {
+                    "id": 18,
+                    "nombre": "Lucio",
+                    "posicion": "Defensa",
+                    "descripcion": "Buen juego aereo, rapido y fuerte en el marcaje"
+                },
+                {
+                    "id": 19,
+                    "nombre": "Kaka",
+                    "posicion": "Mediocampista",
+                    "descripcion": "Habilidoso y buena pegada "
+                },
+                {
+                    "id": 20,
+                    "nombre": "Ronaldinho",
+                    "posicion": "Mediocampista",
+                    "descripcion": "Habilidoso, rapido, organizador de juego"
+                },
+                {
+                    "id": 21,
+                    "nombre": "Ronaldo",
+                    "posicion": "Delantero",
+                    "descripcion": "Goleador"
+                },
+                {
+                    "id": 22,
+                    "nombre": "Adriano",
+                    "posicion": "Delantero",
+                    "descripcion": "Rapido y potencia fisica"
+                },
+                {
+                    "id": 23,
+                    "nombre": "Romario",
+                    "posicion": "Delantero",
+                    "descripcion": "Goleador"
+                }
+            ]
+        }
+    ]
+}

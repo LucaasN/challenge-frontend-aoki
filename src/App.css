@@ -1,0 +1,71 @@
+/*Estilos y variables generales*/
+:root {
+  --background-color: #020617;
+  --text-color: #ffffff;
+  --secondary-text-color: #a0aec0;
+  --border-color: #639;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+  font-family: inherit;
+}
+
+/*Estilos del Header y Footer*/
+.header, .footer {
+  background-color: #000; 
+  color: white;
+  text-align: center;
+}
+
+.header-content, .footer-content{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header-content h1{
+  border-bottom:  1px solid var(--border-color);
+  padding-bottom: 5px;
+}
+
+.footer{
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+}
+
+.footer-content {
+  border-top: 1px solid var(--border-color);
+  padding-top: 1rem;
+}
+
+.social-links {
+  margin-top: 0.5rem;
+}
+
+.social-links a {
+  color: white;
+  text-decoration: none;
+  margin: 0 0.5rem;
+}
+
+.social-links a:hover {
+  text-decoration: underline;
+}
+
+
+/**Otros estilos**/
+.btn-standard{
+  border: 1px solid var(--border-color);
+  padding: 10px;
+  max-width: 16rem;
+}
+
+option{
+  color: #000;
+}
