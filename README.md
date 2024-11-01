@@ -30,3 +30,7 @@ Ademas puedes ver el proyecto en funcionamiento en GitHub Pages y Netlify:
 [GitHub Pages](https://lucaasn.github.io/challenge-frontend-aoki/)
 
 [Netlify](https://challenge-frontend-aoki.netlify.app/)
+
+## A tener en cuenta:
+El login simula una autenticacion para las acciones de alta, baja y modificacion de equipos y jugadores. Para poder acceder a esas acciones se debe estar logueado con user: admin y password: test1234 de lo contrario las acciones no estaran disponibles. El button de "Login" redirecciona al logueo con user y password ya completados, solo clickear en "Iniciar Sesion". Para ver la lista completa de equipos y usar los filtros no es necesario estar logueado
+
